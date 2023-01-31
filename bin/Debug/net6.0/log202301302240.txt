@@ -1,2 +1,0 @@
-2023-01-30 22:40:06.568 -03:00 [INF] Access token created successfully for user MarcosDGF.
-2023-01-30 22:40:06.731 -03:00 [INF] Access token created successfully for user MarcosDGF.

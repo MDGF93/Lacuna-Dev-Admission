@@ -1,2 +1,0 @@
-2023-01-30 22:48:38.330 -03:00 [INF] Access token created successfully for user MarcosDGF.
-2023-01-30 22:48:38.371 -03:00 [INF] Access token creation failed for MarcosDGF, Success. Error id: "2d75d9a2-0d5d-4423-b354-fa555a50bb9b"

@@ -6,16 +6,15 @@ using Lacuna_Dev_Admission.Requests;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Serilog;
-using Serilog.Events;
 
 namespace Lacuna_Dev_Admission.Services;
 
 public class JobService
 {
     private readonly string _baseUrl = "https://gene.lacuna.cc/";
-    private readonly JobRepository _jobRepository = new();
-    private readonly HttpClient _httpClient;
     private readonly Guid _g = Guid.NewGuid();
+    private readonly HttpClient _httpClient;
+    private readonly JobRepository _jobRepository = new();
 
 
     public JobService()
@@ -31,13 +30,9 @@ public class JobService
         var jsonObject = JObject.Parse(responseJson);
         var jobEntity = jsonObject["job"]?.ToObject<JobEntity>();
         if (jobEntity != null)
-        {
             Log.Logger.Information("Job requested successfully");
-        }
         else
-        {
             Log.Logger.Error("Job request failed. Error id: {Guid}", _g);
-        }
 
         return jobEntity ?? throw new InvalidOperationException();
     }
@@ -55,7 +50,7 @@ public class JobService
             var response = await _httpClient.PostAsync($"{_baseUrl}/api/dna/jobs/{jobId}/decode", content);
             var responseJson = await response.Content.ReadAsStringAsync();
             var jsonObject = JObject.Parse(responseJson);
-            _jobRepository.Save(jobEntity, jsonObject["code"]?.ToString() ?? throw new InvalidOperationException());
+            JobRepository.Save(jobEntity, jsonObject["code"]?.ToString() ?? throw new InvalidOperationException());
             Log.Logger.Information("Job completed successfully");
         }
 
@@ -65,7 +60,7 @@ public class JobService
             var responseJson = await response.Content.ReadAsStringAsync();
             var jsonObject = JObject.Parse(responseJson);
             Log.Logger.Information("Encoding completed successfully");
-            _jobRepository.Save(jobEntity, jsonObject["code"]?.ToString() ?? throw new InvalidOperationException());
+            JobRepository.Save(jobEntity, jsonObject["code"]?.ToString() ?? throw new InvalidOperationException());
             Log.Logger.Information("Job completed successfully");
         }
 
@@ -75,9 +70,14 @@ public class JobService
             var responseJson = await response.Content.ReadAsStringAsync();
             var jsonObject = JObject.Parse(responseJson);
             Log.Logger.Information("Gene checking completed successfully");
-            _jobRepository.Save(jobEntity, jsonObject["code"]?.ToString() ?? throw new InvalidOperationException());
+            JobRepository.Save(jobEntity, jsonObject["code"]?.ToString() ?? throw new InvalidOperationException());
             if (jsonObject["code"].ToString() == "Success")
-            Log.Logger.Information("Job completed successfully");
+                Log.Logger.Information("Job completed successfully");
         }
+    }
+
+    public List<JobEntity> GetJobs()
+    {
+        return JobRepository.GetJobs();
     }
 }

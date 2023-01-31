@@ -82,7 +82,9 @@ public class Program
         {
             Console.WriteLine("Please select an option:");
             Console.WriteLine("1. Request job");
-            Console.WriteLine("2. Exit");
+            Console.WriteLine("2. See all jobs done");
+            Console.WriteLine("3. Exit");
+            
             Console.Write("Enter your choice: ");
             var choice = int.Parse(Console.ReadLine()!);
             switch (choice)
@@ -119,6 +121,15 @@ public class Program
 
                     break;
                 case 2:
+                    var jobs = jobService.GetJobs();
+                    foreach (var jobEntity in jobs)
+                    {
+                        Console.WriteLine("══════════════════════════════════════════════════════");
+                        jobEntity.PrintJob();
+                        Console.WriteLine("══════════════════════════════════════════════════════\n");
+                    }
+                    break;
+                case 3:
                     Console.Write("Exiting...");
                     Environment.Exit(0);
                     break;

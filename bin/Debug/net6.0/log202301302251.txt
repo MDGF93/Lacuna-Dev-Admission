@@ -1,4 +1,0 @@
-2023-01-30 22:51:16.637 -03:00 [INF] Access token created successfully for MarcosDGF
-2023-01-30 22:51:20.883 -03:00 [INF] Job request failed. Error id: 09030ae86a6b4f6ba93ccf411aad94d8
-2023-01-30 22:51:21.101 -03:00 [INF] Job saved successfully
-2023-01-30 22:51:21.102 -03:00 [INF] Job request failed. Error id: 09030ae86a6b4f6ba93ccf411aad94d8
