@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using Serilog;
 
 namespace Lacuna_Dev_Admission;
 
@@ -51,14 +52,12 @@ public class Operations
         var dnaBytes = dna
             .Select(c => nucleobaseCodes[c])
             .ToArray();
-        Console.WriteLine("DNA encoded!");
-
 
         var binaryAsAscii = string.Join("", dnaBytes.Select(x => Convert.ToString(x, 2).PadLeft(2, '0')));
         var bytes = Enumerable.Range(0, binaryAsAscii.Length / 8)
             .Select(i => Convert.ToByte(binaryAsAscii.Substring(i * 8, 8), 2))
             .ToArray();
-
+        
         return Convert.ToBase64String(bytes);
     }
 
@@ -125,7 +124,6 @@ public class Operations
 
     private static string GetTemplateStrand(string input)
     {
-        Console.WriteLine("Chamou o tmepalte");
         var mapping = new Dictionary<char, char>
         {
             { 'A', 'T' },

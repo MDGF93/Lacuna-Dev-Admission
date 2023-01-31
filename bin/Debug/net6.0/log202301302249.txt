@@ -1,0 +1,4 @@
+2023-01-30 22:49:29.254 -03:00 [INF] Access token creation failed for MarcosDGF, Success. Error id: "17bbdae6-4767-420c-aadc-145b3c01d8c1"
+2023-01-30 22:49:41.264 -03:00 [INF] Job request failed. Error id: 55368ddf203845d6b5c089159bd157f8
+2023-01-30 22:49:41.772 -03:00 [INF] Encoding completed successfully
+2023-01-30 22:49:41.903 -03:00 [INF] Job request failed. Error id: 55368ddf203845d6b5c089159bd157f8

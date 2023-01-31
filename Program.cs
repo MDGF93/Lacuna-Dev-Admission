@@ -14,7 +14,7 @@ public class Program
     {
         Log.Logger = new LoggerConfiguration()
             .WriteTo.Console()
-            .WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
+            .WriteTo.File("log.txt", rollingInterval: RollingInterval.Minute)
             .CreateLogger();
         var userService = new UserService();
         var accessTokenService = new AccessTokenService();
@@ -74,13 +74,10 @@ public class Program
                     break;
             }
         }
-
         Console.WriteLine($"Welcome {user.UserName}!");
         user.AssignedJobs = null;
         var accessTokenRequest = new CreateAccessTokenRequest(user.UserName, user.Password);
-        user.AccessTokenObj = await accessTokenService.CreateNewAccessToken(accessTokenRequest);
-        Console.WriteLine(user.AccessTokenObj.AccessToken);
-        Console.WriteLine("Expired: " + user.AccessTokenObj.IsExpired());
+        user.AccessTokenObj = await accessTokenService.CreateNewAccessToken(accessTokenRequest, silent:true);
         while (true)
         {
             Console.WriteLine("Please select an option:");

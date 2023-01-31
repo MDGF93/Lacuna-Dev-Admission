@@ -1,0 +1,1 @@
+2023-01-30 22:50:13.688 -03:00 [ERR] Access token creation failed for MarcosDGF, Success. Error id: "a6c2fcda-3aa4-455b-bea3-1f744224ae28"

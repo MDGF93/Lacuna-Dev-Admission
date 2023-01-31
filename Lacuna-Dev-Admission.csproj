@@ -23,6 +23,7 @@
         <None Remove="appsettings.json" />
         <None Remove="Actions\**" />
         <None Remove="NewFile1.txt" />
+        <None Remove="log.txt" />
     </ItemGroup>
 
     <ItemGroup>

@@ -13,7 +13,6 @@ public class JobRepository
 
     public void Save(JobEntity job, string code)
     {
-        Console.WriteLine("CURRENT DIRECTORY " + currentDirectory);
         using (var connection = new SQLiteConnection(_connectionString))
         {
             // If table doesn't exist, create it

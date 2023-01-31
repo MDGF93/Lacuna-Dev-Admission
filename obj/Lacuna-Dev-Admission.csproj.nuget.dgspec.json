@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mariana\\RiderProjects\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission.csproj": {}
+    "C:\\Users\\Mariana\\Documents\\GitHub\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mariana\\RiderProjects\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission.csproj": {
+    "C:\\Users\\Mariana\\Documents\\GitHub\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mariana\\RiderProjects\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission.csproj",
+        "projectUniqueName": "C:\\Users\\Mariana\\Documents\\GitHub\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission.csproj",
         "projectName": "Lacuna-Dev-Admission",
-        "projectPath": "C:\\Users\\Mariana\\RiderProjects\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission.csproj",
+        "projectPath": "C:\\Users\\Mariana\\Documents\\GitHub\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission.csproj",
         "packagesPath": "C:\\Users\\Mariana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mariana\\RiderProjects\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission\\obj\\",
+        "outputPath": "C:\\Users\\Mariana\\Documents\\GitHub\\Lacuna-Dev-Admission\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mariana\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

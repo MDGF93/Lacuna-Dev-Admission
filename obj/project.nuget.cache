@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kKcxpHj716y3LRocPPX2cF8ovIYozyAP00UQgy8XIfPuPJeYuf2xlFSwWHFFYfsQHGJlaQnpWfMIgefg7TjXiQ==",
+  "dgSpecHash": "X+NiQBK3vIDo49cqTOsGmekhmyzazmYMlmqnjbj2w5mwhmwy3Ui2dR/sDY3RRZ4Ep+BxF0QD1aepF75K0GXpXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mariana\\RiderProjects\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission.csproj",
+  "projectFilePath": "C:\\Users\\Mariana\\Documents\\GitHub\\Lacuna-Dev-Admission\\Lacuna-Dev-Admission.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mariana\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Mariana\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512",
