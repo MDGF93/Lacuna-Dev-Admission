@@ -1,0 +1,8 @@
+DotNetEnv -> https://github.com/tonerdo/dotnet-env
+Newtonsoft.Json -> http://www.newtonsoft.com/json
+AutoMapper -> https://automapper.org/
+Serilog -> https://serilog.net/
+Serilog Console -> https://github.com/serilog/serilog-sinks-console
+Serilog Sinks File -> https://www.nuget.org/packages/Serilog.Sinks.File
+SQLit -> https://www.nuget.org/packages/System.Data.SQLite
+CommandLineParser -> https://www.nuget.org/packages/CommandLineParser

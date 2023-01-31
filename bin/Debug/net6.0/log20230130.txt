@@ -1,0 +1,81 @@
+2023-01-30 20:07:40.143 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 20:07:40.304 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 20:07:42.175 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:07:43.228 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:07:45.148 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:07:46.515 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:07:48.899 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:07:49.647 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:07:50.385 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:07:51.028 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:07:51.655 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:07:52.281 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:07:53.325 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:07:54.896 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:07:56.159 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:07:57.548 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:07:58.368 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:12:25.502 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 20:12:25.663 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 20:12:26.805 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:12:27.899 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:12:28.818 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:12:29.610 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:12:30.424 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:12:31.220 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:12:32.017 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:12:33.036 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:12:33.986 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:12:35.172 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:12:36.545 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:12:37.843 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:12:39.257 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:12:39.923 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:12:41.398 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:12:42.085 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:12:42.939 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:12:43.655 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:12:44.885 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:12:45.930 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:12:46.566 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:12:47.421 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:12:48.251 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:12:49.326 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:12:50.223 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:12:51.143 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:12:52.088 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:12:53.556 -03:00 [INF] Encoding completed successfully
+2023-01-30 20:12:54.267 -03:00 [INF] Decoding completed successfully
+2023-01-30 20:12:55.157 -03:00 [INF] Gene checking completed successfully
+2023-01-30 20:13:01.068 -03:00 [INF] Decoding completed successfully
+2023-01-30 21:10:57.950 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:10:58.175 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:11:00.073 -03:00 [INF] Decoding completed successfully
+2023-01-30 21:15:05.784 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:15:05.941 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:15:07.536 -03:00 [INF] Encoding completed successfully
+2023-01-30 21:15:34.070 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:15:34.230 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:15:35.395 -03:00 [INF] Decoding completed successfully
+2023-01-30 21:19:00.716 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:19:00.890 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:19:03.255 -03:00 [INF] Encoding completed successfully
+2023-01-30 21:21:08.642 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:21:08.803 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:21:10.362 -03:00 [INF] Decoding completed successfully
+2023-01-30 21:22:06.825 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:22:06.992 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:22:09.277 -03:00 [INF] Encoding completed successfully
+2023-01-30 21:24:30.601 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:24:30.758 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:24:32.129 -03:00 [INF] Decoding completed successfully
+2023-01-30 21:24:48.770 -03:00 [INF] Decoding completed successfully
+2023-01-30 21:24:49.957 -03:00 [INF] Decoding completed successfully
+2023-01-30 21:24:50.784 -03:00 [INF] Decoding completed successfully
+2023-01-30 21:24:51.819 -03:00 [INF] Encoding completed successfully
+2023-01-30 21:24:52.786 -03:00 [INF] Decoding completed successfully
+2023-01-30 21:24:53.480 -03:00 [INF] Decoding completed successfully
+2023-01-30 21:27:42.986 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:27:43.153 -03:00 [INF] Access token created successfully for user MarcosDGF.
+2023-01-30 21:27:44.424 -03:00 [INF] Decoding completed successfully
+2023-01-30 21:27:45.561 -03:00 [INF] Gene checking completed successfully
